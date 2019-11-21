@@ -1,0 +1,15 @@
+{
+  "name": "9-js-ui-wdio-xotabu4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo project for StartIT students",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StartITProtractorJS/9-js-ui-wdio-Xotabu4.git"
+  },
+  "author": "Oleksandr Khotemskyi <xotabu4@gmail.com>",
+  "license": "MIT"
+}
