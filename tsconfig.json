@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "allowJs": true,
+        "inlineSourceMap": true,
+        "types": [
+            "node", 
+            "@wdio/sync", 
+            "@wdio/mocha-framework"
+        ],
+        "module": "commonjs",
+        "target": "es6"
+    }
+}
