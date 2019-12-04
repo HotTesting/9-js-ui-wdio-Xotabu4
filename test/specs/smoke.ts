@@ -8,8 +8,11 @@ describe('Website', function () {
             throw new Error('Website should be opened, and logo displayed');
         }
     })
-
-    it('test', function () {
+    
+    it.skip('test @SMOKE', function () {
+        // this.timeout(40000)
+        // this.retries(5)
+        
         browser.url(`/`)
 
         const popularProducts = $$('#box-popular-products .product')

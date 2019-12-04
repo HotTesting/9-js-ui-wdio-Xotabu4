@@ -23,7 +23,6 @@ describe('User', function () {
         // 'Your customer account has been created.'
         browser.pause(2000)
         const alert = $('#notices .alert-success')
-
         assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
 
         const alertText = alert.getText()

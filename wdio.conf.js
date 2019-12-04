@@ -23,7 +23,7 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.ts'
-        './test/specs/**/registration.ts'
+        './test/specs/**/mocha_hooks.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -45,7 +45,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    // maxInstances: 10,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -55,7 +55,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
         browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
@@ -133,7 +133,11 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 60000,
+        retries: 3,
+        slow: 30000,
+        grep: process.env.MOCHA_GREP || '',
+        invert: true,
     },
     //
     // =====
@@ -178,19 +182,22 @@ exports.config = {
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
      */
-    // beforeSuite: function (suite) {
-    // },
+    beforeSuite: function (suite) {
+        console.log('WDIO: BEFORE SUITE')
+    },
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    // beforeTest: function (test, context) {
-    // },
+    beforeTest: function (test, context) {
+        console.log('WDIO: BEFORE TEST: ', test, context)
+    },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
      */
-    // beforeHook: function (test, context) {
-    // },
+    beforeHook: function (test, context) {
+        console.log('WDIO: before hook')
+    },
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
