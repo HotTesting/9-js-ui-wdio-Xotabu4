@@ -1,6 +1,11 @@
 require("ts-node").register({ files: true });
+const { App } = require('../../pages/application')
 
 exports.config = {
+    // hostname: 'ip-5236.sunline.net.ua',
+    // port: 4444,
+    // path: '/wd/hub',
+
     //
     // ====================
     // Runner Configuration
@@ -23,7 +28,7 @@ exports.config = {
     //
     specs: [
         // './test/specs/**/*.ts'
-        './test/specs/**/mocha_hooks.ts'
+        './test/specs/**/checkout.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -57,7 +62,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 1,
         //
-        browserName: 'chrome',
+        browserName: 'chrome',    
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -70,7 +75,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'trace',
     //
     // Set specific log levels per logger
     // loggers:
@@ -134,10 +139,6 @@ exports.config = {
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000,
-        retries: 3,
-        slow: 30000,
-        grep: process.env.MOCHA_GREP || '',
-        invert: true,
     },
     //
     // =====
@@ -169,8 +170,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function (capabilities, specs) {
+        // global.App = App;
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -182,22 +184,22 @@ exports.config = {
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
      */
-    beforeSuite: function (suite) {
-        console.log('WDIO: BEFORE SUITE')
-    },
+    // beforeSuite: function (suite) {
+    //     console.log('WDIO: BEFORE SUITE')
+    // },
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    beforeTest: function (test, context) {
-        console.log('WDIO: BEFORE TEST: ', test, context)
-    },
+    // beforeTest: function (test, context) {
+    //     console.log('WDIO: BEFORE TEST: ', test, context)
+    // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
      */
-    beforeHook: function (test, context) {
-        console.log('WDIO: before hook')
-    },
+    // beforeHook: function (test, context) {
+    //     console.log('WDIO: before hook')
+    // },
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
