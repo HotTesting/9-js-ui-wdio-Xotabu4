@@ -1,5 +1,4 @@
 require("ts-node").register({ files: true });
-const { App } = require('../../pages/application')
 
 exports.config = {
     // hostname: 'ip-5236.sunline.net.ua',
@@ -171,7 +170,6 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function (capabilities, specs) {
-        // global.App = App;
     },
     /**
      * Runs before a WebdriverIO command gets executed.
