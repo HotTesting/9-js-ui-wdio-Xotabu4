@@ -21,14 +21,28 @@ describe('User', function () {
 
         // '#notices .alert-success'
         // 'Your customer account has been created.'
-        browser.pause(2000)
+        // browser.pause(2000)
+        // const alert = $('#notices .alert-success')
+        // assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
         const alert = $('#notices .alert-success')
+        alert.waitForDisplayed(null, null, `Expected success alert to be visible after registration`)
         assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
 
-        const alertText = alert.getText()
         const expectedText = 'Your customer account has been created.'
-        assert(alertText.includes(expectedText), 
-            `Alert text: "${alertText}" to match expected: "${expectedText}", after succesful registration`)
+        let lastResult = null;
+        browser.waitUntil(() => {
+            try {
+                lastResult = alert.getText()
+                return lastResult.includes(expectedText)
+            } catch (err) {
+                return false
+            }
+        }, null, `Alert text: "${lastResult}" to match expected: "${expectedText}", after succesful registration`)
+        
+        // const alertText = alert.getText()
+        // const expectedText = 'Your customer account has been created.'
+        // assert(alertText.includes(expectedText), 
+        //    `Alert text: "${alertText}" to match expected: "${expectedText}", after succesful registration`)
     })
 })
 

@@ -1,8 +1,11 @@
 import { expect } from 'chai'
 import { App } from '../../pages/application'
-// declare const App: any
 
 describe('Cart', function () {
+    beforeEach(function () {
+        browser.deleteAllCookies();
+    }) 
+
     it('can add item', function () {
         App.product.open('/rubber-ducks-c-1/red-duck-p-3')
         App.product.addToCart()

@@ -21,8 +21,12 @@ export class ProductDetailsPage extends BasePage {
     }
 
     addToCart() {
+        const currentItemsInCart = this.header.getQuantity()
         $('button[name="add_cart_product"]').click()
-        browser.pause(3000);
+        browser.waitUntil(() => {
+            return this.header.getQuantity() > currentItemsInCart
+        }, null, `Expected items in cart to be changed. 
+        Current items: ${this.header.getQuantity()} items before ${currentItemsInCart}`)
     }
 }
 
