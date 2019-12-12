@@ -4,7 +4,7 @@ import { App } from '../../pages/application'
 describe('Cart', function () {
     beforeEach(function () {
         browser.deleteAllCookies();
-    }) 
+    })
 
     it('can add item', function () {
         App.product.open('/rubber-ducks-c-1/red-duck-p-3')
