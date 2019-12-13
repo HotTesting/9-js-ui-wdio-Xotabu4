@@ -4,7 +4,8 @@
   "private": true,
   "description": "Demo project for StartIT students",
   "scripts": {
-    "test": "wdio run wdio.conf.js"
+    "test": "wdio run wdio.conf.js",
+    "repl": "wdio repl chrome"
   },
   "repository": {
     "type": "git",

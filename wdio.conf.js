@@ -1,8 +1,8 @@
 require("ts-node").register({ files: true });
 
-const config = {
-    hostname: 'ip-5236.sunline.net.ua',
-    port: 4444,
+const wdioConfig = {
+    //hostname: 'ip-5236.sunline.net.ua',
+    //port: 4444,
     path: '/wd/hub',
     // path: '/',
     runner: 'local',
@@ -21,6 +21,19 @@ const config = {
         ui: 'bdd',
         timeout: 60000,
     },
+    beforeSession: function (config, capabilities) {
+        if (process.env.DEBUG == "1") {
+            // Giving debugger some time to connect...
+            return new Promise(resolve => setTimeout(resolve, 10000));
+        }
+    },
 }
 
-exports.config = config
+if (process.env.DEBUG == "1") {
+    console.log("###### Running in debug mode! ######");
+    wdioConfig.maxInstances = 1
+    wdioConfig['execArgv'] = ["--inspect=127.0.0.1:5858"];
+    wdioConfig.mochaOpts.timeout = 360000;
+}
+
+exports.config = wdioConfig

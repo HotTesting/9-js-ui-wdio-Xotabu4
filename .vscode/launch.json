@@ -12,7 +12,7 @@
         "sourceMaps": true,
         "args": [
            "./wdio.conf.js", 
-           "--spec", "./test/specs/cart.ts"
+           "--spec", "./test/specs/checkout.ts"
         ],
         "env": {
           "DEBUG": "1",
