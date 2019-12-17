@@ -7,7 +7,7 @@ const wdioConfig = {
     // path: '/',
     runner: 'local',
     specs: [
-        './test/specs/**/*.ts'
+        './test/specs/**/checkout-user.ts'
     ],
     capabilities: [{
         maxInstances: 1,
@@ -24,7 +24,7 @@ const wdioConfig = {
     beforeSession: function (config, capabilities) {
         if (process.env.DEBUG == "1") {
             // Giving debugger some time to connect...
-            return new Promise(resolve => setTimeout(resolve, 10000));
+            return new Promise(resolve => setTimeout(resolve, 5000));
         }
     },
 }
