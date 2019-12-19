@@ -31,13 +31,14 @@ console.log("3 Ending...");
 // Lets see 2 implementations for printing file content - sync and async
 function printFileSync(name) {
   const fs = require("fs");
-  let content = fs.readFileSync(`./6/data/${name}`, { encoding: "UTF8" });
+  let content = fs.readFileSync(`./data/${name}`, { encoding: "UTF8" });
   console.log(name, "is ready:");
   console.log(content);
 }
+
 function printFileAsync(name) {
   const fs = require("fs");
-  fs.readFile(`./6/data/${name}`, { encoding: "UTF8" }, function(err, content) {
+  fs.readFile(`./data/${name}`, { encoding: "UTF8" }, function(err, content) {
     console.log(name, "is ready:");
     console.log(content);
   });
@@ -130,7 +131,7 @@ try {
 // DO NOT WORRY IF YOU DONT UNDERSTAND
 // This is called pyramid of DOOM
 const fs = require("fs");
-fs.readFile(`./6/data/paths.json`, { encoding: "UTF8" }, function(
+fs.readFile(`./test/async/data/paths.json`, { encoding: "UTF8" }, function(
   err,
   filepaths
 ) {

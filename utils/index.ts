@@ -55,16 +55,22 @@ async function createNewUserAsync() {
         confirmed_password: password,
         create_account: "Create Account"
     };
-    await req.post("http://ip-5236.sunline.net.ua:38015/create_account", {
-        form: formData
-    }).then(null, err => err.response);
+    try {
+        await req.post("http://ip-5236.sunline.net.ua:38015/create_account", {
+            form: formData
+        })
+    } catch (err) {
+        // console.log(err)
+    }
+
     return { email: email, password: password };
 }
 
 export function quickLogin(credentials: { email: string, password: string }): { credentials: { email: string, password: string }, cookieWithSessionID: any } {
     console.log("Doing login for user: ", credentials);
-    const cookieWithSessionID = browser.call(function () {
-        return quickLoginAsync(credentials)
+    const cookieWithSessionID = browser.call(async function () {
+        let res = await quickLoginAsync(credentials)
+        return res
     });
     browser.url('/')
     browser.setCookies({

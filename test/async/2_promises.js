@@ -99,6 +99,9 @@ readFile("1.json")
     console.log("File 2.json returned", content2);
     console.log("Reading file async 3.json");
     return readFile("3.json");
+  }, function (err) { 
+    console.log('error', err)
+    throw err
   })
   .then(function(content3) {
     console.log("File 3.json returned", content3);

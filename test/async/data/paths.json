@@ -1,5 +1,5 @@
 {
-  "first": "./6/data/1.json",
-  "second": "./6/data/2.json",
-  "third": "./6/data/3.json"
+  "first": "./test/async/data/1.json",
+  "second": "./test/async/data/2.json",
+  "third": "./test/async/data/3.json"
 }

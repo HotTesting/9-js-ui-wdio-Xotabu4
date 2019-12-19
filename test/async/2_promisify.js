@@ -10,12 +10,3 @@ readFile("./6/data/1.json", { encoding: "UTF8" })
 .then(function(content) {
   console.log(content);
 });
-
-
-const fs = require("fs"); 
-const util = require("util");
-let readFile = util.promisify(fs.readFile);
-readFile("./myFile.txt", { encoding: "UTF8" })
-.then(function(content) {
-  console.log(content);
-});

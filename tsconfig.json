@@ -8,6 +8,7 @@
             "@wdio/sync", 
             "@wdio/mocha-framework"
         ],
+        "typeRoots": ["./types"],
         "module": "commonjs",
         "target": "es5"
     }
