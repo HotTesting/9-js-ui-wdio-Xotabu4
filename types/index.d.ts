@@ -5,9 +5,8 @@ declare module WebdriverIO {
     }
     interface Element {
         /**
-         * Wait for element to contain text, wrapper around .waitUntil
-         * Declared in webdriverio.conf.js with browser.addCommand
+         * Do JS click on current element using browser.execute
          */
-        jsClick(selector: string): () => void
+        jsClick: () => void
     }
 }

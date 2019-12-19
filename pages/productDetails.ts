@@ -20,6 +20,9 @@ export class ProductDetailsPage extends BasePage {
         return productDetails
     }
 
+    /**
+     * Add current product to cart
+     */
     addToCart() {
         const currentItemsInCart = this.header.getQuantity()
         $('button[name="add_cart_product"]').click()

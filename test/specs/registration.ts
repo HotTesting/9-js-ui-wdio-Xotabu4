@@ -3,6 +3,7 @@ import * as assert from 'assert';
 describe('User', function () {
     it('can register', function () {
         browser.url(`/create_account`)
+        console.time('GUI registration')
         const registrationForm = $('#box-create-account')
         registrationForm.$('input[name="firstname"]').setValue('Test')
         registrationForm.$('input[name="lastname"]').setValue('Test')
@@ -18,7 +19,7 @@ describe('User', function () {
         registrationForm.$('input[name="confirmed_password"]').setValue(email)
 
         registrationForm.$('button[name="create_account"]').click()
-
+        console.timeEnd('GUI registration')
         // '#notices .alert-success'
         // 'Your customer account has been created.'
         // browser.pause(2000)
