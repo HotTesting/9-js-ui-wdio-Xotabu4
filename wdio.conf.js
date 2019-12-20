@@ -6,7 +6,7 @@ const wdioConfig = {
     path: "/wd/hub",
     // path: '/',
     runner: "local",
-    specs: ["./test/demo/multiremote.ts"],
+    specs: ["./test/specs/**/*.ts"],
     // capabilities: [{
     //     maxInstances: 1,
     //     browserName: 'chrome',
@@ -25,7 +25,7 @@ const wdioConfig = {
         }
     },
     baseUrl: process.env.SUT_URL || "http://ip-5236.sunline.net.ua:38015",
-    services: ["chromedriver"],
+    // services: ["chromedriver"],
     framework: "mocha",
     reporters: ["spec"],
     mochaOpts: {
