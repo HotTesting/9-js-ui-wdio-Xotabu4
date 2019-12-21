@@ -7,23 +7,23 @@ const wdioConfig = {
     // path: '/',
     runner: "local",
     specs: ["./test/specs/**/*.ts"],
-    // capabilities: [{
-    //     maxInstances: 1,
-    //     browserName: 'chrome',
-    // }],
+    capabilities: [{
+        maxInstances: 1,
+        browserName: 'chrome',
+    }],
 
-    capabilities: {
-        user1: {
-            capabilities: {
-                browserName: "chrome"
-            }
-        },
-        user2: {
-            capabilities: {
-                browserName: "chrome"
-            }
-        }
-    },
+    // capabilities: {
+    //     user1: {
+    //         capabilities: {
+    //             browserName: "chrome"
+    //         }
+    //     },
+    //     user2: {
+    //         capabilities: {
+    //             browserName: "chrome"
+    //         }
+    //     }
+    // },
     baseUrl: process.env.SUT_URL || "http://ip-5236.sunline.net.ua:38015",
     // services: ["chromedriver"],
     framework: "mocha",

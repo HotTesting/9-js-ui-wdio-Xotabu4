@@ -6,7 +6,6 @@ describe('Cart', function () {
     beforeEach(function () {
         browser.deleteAllCookies();
         const user = createNewUserAndLogin()
-        browser.pause(10000) // DEBUG
     })
 
     it('can add item', function () {
