@@ -7,10 +7,12 @@ const wdioConfig = {
     // path: '/',
     runner: "local",
     specs: ["./test/specs/**/*.ts"],
-    capabilities: [{
-        maxInstances: 2,
-        browserName: 'chrome',
-    }],
+    capabilities: [
+        {
+            maxInstances: 2,
+            browserName: "chrome"
+        }
+    ],
 
     // capabilities: {
     //     user1: {
@@ -27,11 +29,17 @@ const wdioConfig = {
     baseUrl: process.env.SUT_URL || "http://ip-5236.sunline.net.ua:38015",
     // services: ["chromedriver"],
     framework: "mocha",
-    reporters: ['spec', ['allure', {
-        outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
-    }]],
+    reporters: [
+        "spec",
+        [
+            "allure",
+            {
+                outputDir: "allure-results",
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotsReporting: true
+            }
+        ]
+    ],
     mochaOpts: {
         ui: "bdd",
         timeout: 60000
@@ -40,6 +48,11 @@ const wdioConfig = {
         if (process.env.DEBUG == "1") {
             // Giving debugger some time to connect...
             return new Promise(resolve => setTimeout(resolve, 5000));
+        }
+    },
+    afterTest: function(test) {
+        if (test.error !== undefined) {
+            browser.takeScreenshot();
         }
     }
 };
