@@ -27,7 +27,6 @@ describe('User', function () {
         // assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
         const alert = $('#notices .alert-success')
         alert.waitForDisplayed(null, null, `Expected success alert to be visible after registration`)
-        assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
 
         const expectedText = 'Your customer account has been created.'
         let lastResult = null;
