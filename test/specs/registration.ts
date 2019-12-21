@@ -1,4 +1,3 @@
-import * as assert from 'assert';
 
 describe('User', function () {
     it('can register', function () {
@@ -25,15 +24,16 @@ describe('User', function () {
         // browser.pause(2000)
         // const alert = $('#notices .alert-success')
         // assert(alert.isDisplayed(), `Expected success alert to be visible after registration`)
-        const alert = $('#notices .alert-success')
-        alert.waitForDisplayed(null, null, `Expected success alert to be visible after registration`)
+        // const alert = $('#notices .alert-success')
+        // alert.waitForDisplayed(null, null, `Expected success alert to be visible after registration`)
 
         const expectedText = 'Your customer account has been created.'
         let lastResult = null;
         browser.waitUntil(() => {
             try {
+                const alert = $('#notices .alert-success')
                 lastResult = alert.getText()
-                return lastResult.includes(expectedText)
+                return alert.isDisplayed() && lastResult.includes(expectedText)
             } catch (err) {
                 return false
             }
