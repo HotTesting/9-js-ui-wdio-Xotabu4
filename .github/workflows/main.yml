@@ -13,8 +13,10 @@ jobs:
     - name: Start Tests
       run: npm test
     - name: Create Report
+      if: always()
       run: npm run report
     - uses: actions/upload-artifact@v1
+      if: always()
       with:
         name: allure-report
         path: ./allure-report
