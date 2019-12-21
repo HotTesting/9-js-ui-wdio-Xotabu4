@@ -1,6 +1,6 @@
 
 describe('User', function () {
-    it('can register', function () {
+    it.skip('can register', function () {
         browser.url(`/create_account`)
         console.time('GUI registration')
         const registrationForm = $('#box-create-account')
