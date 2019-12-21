@@ -5,6 +5,7 @@
   "description": "Demo project for StartIT students",
   "scripts": {
     "test": "wdio run wdio.conf.js",
+    "report": "allure generate",
     "repl": "wdio repl chrome"
   },
   "repository": {
@@ -24,6 +25,8 @@
     "@wdio/mocha-framework": "5.16.5",
     "@wdio/spec-reporter": "5.16.5",
     "@wdio/sync": "5.16.5",
+    "@wdio/allure-reporter": "^5.0.0",
+    "allure-commandline": "^2.13.0",
     "chromedriver": "^78.0.1",
     "chai": "4.2.0",
     "wdio-chromedriver-service": "^5.0.2",

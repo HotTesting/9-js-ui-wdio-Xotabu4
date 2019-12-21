@@ -8,7 +8,7 @@ const wdioConfig = {
     runner: "local",
     specs: ["./test/specs/**/*.ts"],
     capabilities: [{
-        maxInstances: 1,
+        maxInstances: 2,
         browserName: 'chrome',
     }],
 
@@ -27,7 +27,11 @@ const wdioConfig = {
     baseUrl: process.env.SUT_URL || "http://ip-5236.sunline.net.ua:38015",
     // services: ["chromedriver"],
     framework: "mocha",
-    reporters: ["spec"],
+    reporters: ['spec', ['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+    }]],
     mochaOpts: {
         ui: "bdd",
         timeout: 60000

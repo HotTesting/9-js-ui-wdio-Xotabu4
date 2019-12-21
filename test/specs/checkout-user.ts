@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { App } from '../../pages/application'
 import { createNewUserAndLogin } from '../../utils/index';
 
-describe('Cart', function () {
+describe('User', function () {
     beforeEach(function () {
         browser.deleteAllCookies();
         const user = createNewUserAndLogin()

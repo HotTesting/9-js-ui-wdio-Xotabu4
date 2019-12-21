@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { App } from '../../pages/application'
 
-describe('Cart', function () {
+describe('Guest', function () {
     beforeEach(function () {
         browser.deleteAllCookies();
     })
