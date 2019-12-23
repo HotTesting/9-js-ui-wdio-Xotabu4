@@ -1,0 +1,58 @@
+{
+  "uid" : "14c16300723cb29d",
+  "name" : "should be alive",
+  "fullName" : "Website.should be alive",
+  "historyId" : "c2136936d7e671b06d2e19f045e9b72d",
+  "time" : {
+    "start" : 1577117417129,
+    "stop" : 1577117418802,
+    "duration" : 1673
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Website"
+  }, {
+    "name" : "testClass",
+    "value" : "Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be alive"
+  }, {
+    "name" : "package",
+    "value" : "Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14c16300723cb29d.json",
+  "parameterValues" : [ "chrome" ]
+}

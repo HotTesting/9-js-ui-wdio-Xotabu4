@@ -1,0 +1,91 @@
+{
+  "uid" : "5eb15b5914f5d9c3",
+  "name" : "can add item",
+  "fullName" : "User.can add item",
+  "historyId" : "b7660e27dbe934364b84595834b5cf0",
+  "time" : {
+    "start" : 1577117403413,
+    "stop" : 1577117467965,
+    "duration" : 64552
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)\n                    at Test.Runnable._timeoutError (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+    "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)\n                    at Test.Runnable._timeoutError (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1577117403414,
+        "stop" : 1577117407934,
+        "duration" : 4520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add item"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5eb15b5914f5d9c3.json",
+  "parameterValues" : [ "chrome" ]
+}
