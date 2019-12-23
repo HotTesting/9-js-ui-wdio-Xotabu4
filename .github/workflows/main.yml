@@ -21,6 +21,7 @@ jobs:
       run: npm test
     - name: Create Report
       if: always()
+      # trying to save history of previous runs if it is exists
       run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history || true && npm run report
     - uses: actions/upload-artifact@v1
       if: always()
@@ -35,4 +36,3 @@ jobs:
         BRANCH: master # The branch the action should deploy to.
         FOLDER: allure-report # The folder the action should deploy.
         TARGET_FOLDER: docs
-        CLEAN_EXCLUDE: '["docs/history"]'
