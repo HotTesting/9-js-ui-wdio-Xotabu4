@@ -55,11 +55,11 @@ const wdioConfig = {
 };
 
 if (process.env.SELENIUM_HUB_HOST) {
-    wdio.config.hostname = process.env.SELENIUM_HUB_HOST
-    wdio.config.port = 4444
-    wdio.config.path = "/wd/hub"
+    wdioConfig.hostname = process.env.SELENIUM_HUB_HOST
+    wdioConfig.port = 4444
+    wdioConfig.path = "/wd/hub"
 } else {
-    wdio.config.services.push("chromedriver");
+    wdioConfig.services.push("chromedriver");
 }
 
 if (process.env.DEBUG == "1") {
