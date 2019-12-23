@@ -4,26 +4,26 @@
     "name" : "Guest",
     "children" : [ {
       "name" : "can add item",
-      "uid" : "d1db7bb2463862a3",
+      "uid" : "19cb39ef5a10a1ee",
       "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
       "status" : "passed",
       "time" : {
-        "start" : 1577118690862,
-        "stop" : 1577118694927,
-        "duration" : 4065
+        "start" : 1577119470444,
+        "stop" : 1577119473550,
+        "duration" : 3106
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can add correct item",
-      "uid" : "9b9a173e2f9ec317",
+      "uid" : "14f6ce8a987f9308",
       "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1577118694928,
-        "stop" : 1577118697682,
-        "duration" : 2754
+        "start" : 1577119473551,
+        "stop" : 1577119479504,
+        "duration" : 5953
       },
       "flaky" : false,
       "newFailed" : false,
@@ -34,38 +34,38 @@
     "name" : "User",
     "children" : [ {
       "name" : "can add item",
-      "uid" : "c9d49c72c5f34252",
+      "uid" : "bd03ea938b639ef",
       "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
       "status" : "passed",
       "time" : {
-        "start" : 1577118691188,
-        "stop" : 1577118696797,
-        "duration" : 5609
+        "start" : 1577119471232,
+        "stop" : 1577119483301,
+        "duration" : 12069
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can add correct item",
-      "uid" : "ffb4684e9bde8e6c",
+      "uid" : "bffd375f84cdc178",
       "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
       "status" : "passed",
       "time" : {
-        "start" : 1577118696798,
-        "stop" : 1577118702721,
-        "duration" : 5923
+        "start" : 1577119483302,
+        "stop" : 1577119488541,
+        "duration" : 5239
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can register",
-      "uid" : "4269c4373eb54074",
+      "uid" : "7d8026903ffc79db",
       "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
       "status" : "skipped",
       "time" : {
-        "start" : 1577118702210,
-        "stop" : 1577118702210,
+        "start" : 1577119485742,
+        "stop" : 1577119485742,
         "duration" : 0
       },
       "flaky" : false,
@@ -77,25 +77,25 @@
     "name" : "Website",
     "children" : [ {
       "name" : "should be alive",
-      "uid" : "87a4ed21a10b3361",
+      "uid" : "4214574e8e8121f3",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
       "status" : "passed",
       "time" : {
-        "start" : 1577118706155,
-        "stop" : 1577118708746,
-        "duration" : 2591
+        "start" : 1577119491542,
+        "stop" : 1577119493524,
+        "duration" : 1982
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "test @SMOKE",
-      "uid" : "9d143f67f03be4e6",
+      "uid" : "50bcd68120a6a57f",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
       "status" : "skipped",
       "time" : {
-        "start" : 1577118708747,
-        "stop" : 1577118708747,
+        "start" : 1577119493525,
+        "stop" : 1577119493525,
         "duration" : 0
       },
       "flaky" : false,

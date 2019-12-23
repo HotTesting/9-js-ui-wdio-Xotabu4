@@ -1,70 +1,70 @@
 [ {
-  "uid" : "ffb4684e9bde8e6c",
+  "uid" : "bffd375f84cdc178",
   "name" : "can add correct item",
   "time" : {
-    "start" : 1577118696798,
-    "stop" : 1577118702721,
-    "duration" : 5923
+    "start" : 1577119483302,
+    "stop" : 1577119488541,
+    "duration" : 5239
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "87a4ed21a10b3361",
-  "name" : "should be alive",
-  "time" : {
-    "start" : 1577118706155,
-    "stop" : 1577118708746,
-    "duration" : 2591
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9d143f67f03be4e6",
-  "name" : "test @SMOKE",
-  "time" : {
-    "start" : 1577118708747,
-    "stop" : 1577118708747,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d1db7bb2463862a3",
-  "name" : "can add item",
-  "time" : {
-    "start" : 1577118690862,
-    "stop" : 1577118694927,
-    "duration" : 4065
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9d49c72c5f34252",
-  "name" : "can add item",
-  "time" : {
-    "start" : 1577118691188,
-    "stop" : 1577118696797,
-    "duration" : 5609
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4269c4373eb54074",
+  "uid" : "7d8026903ffc79db",
   "name" : "can register",
   "time" : {
-    "start" : 1577118702210,
-    "stop" : 1577118702210,
+    "start" : 1577119485742,
+    "stop" : 1577119485742,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "9b9a173e2f9ec317",
+  "uid" : "14f6ce8a987f9308",
   "name" : "can add correct item",
   "time" : {
-    "start" : 1577118694928,
-    "stop" : 1577118697682,
-    "duration" : 2754
+    "start" : 1577119473551,
+    "stop" : 1577119479504,
+    "duration" : 5953
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19cb39ef5a10a1ee",
+  "name" : "can add item",
+  "time" : {
+    "start" : 1577119470444,
+    "stop" : 1577119473550,
+    "duration" : 3106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50bcd68120a6a57f",
+  "name" : "test @SMOKE",
+  "time" : {
+    "start" : 1577119493525,
+    "stop" : 1577119493525,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bd03ea938b639ef",
+  "name" : "can add item",
+  "time" : {
+    "start" : 1577119471232,
+    "stop" : 1577119483301,
+    "duration" : 12069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4214574e8e8121f3",
+  "name" : "should be alive",
+  "time" : {
+    "start" : 1577119491542,
+    "stop" : 1577119493524,
+    "duration" : 1982
   },
   "status" : "passed",
   "severity" : "normal"
