@@ -2,7 +2,7 @@ name: WDIO Tests
 
 on: 
   push:
-    branches:
+    branches-ignore:
     - '!master' # Push events to branches matching allure-report
     paths-ignore:
     - 'docs/**'
