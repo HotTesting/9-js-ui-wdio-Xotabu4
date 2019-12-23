@@ -1,17 +1,6 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "9a2be34a1af7b5d97360f29faef7da6b",
-    "name" : "Guest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "158d31ef2d958db1dcda80c268f86ba1",
     "name" : "User",
     "statistic" : {
@@ -21,6 +10,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "9a2be34a1af7b5d97360f29faef7da6b",
+    "name" : "Guest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "905cd5dc6ca5d8619c183d5ed9634927",

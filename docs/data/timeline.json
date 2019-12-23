@@ -1,29 +1,42 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "can register",
+    "uid" : "a8af154c868b6f27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1577121495738,
+      "stop" : 1577121495738,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "0-1",
     "children" : [ {
-      "name" : "can add item",
-      "uid" : "df29c5b56c26a278",
+      "name" : "can add correct item",
+      "uid" : "73a0131c9ee6d494",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1577120727074,
-        "stop" : 1577120737531,
-        "duration" : 10457
+        "start" : 1577121491608,
+        "stop" : 1577121497166,
+        "duration" : 5558
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "can add correct item",
-      "uid" : "284c44bff5184cb0",
+      "name" : "can add item",
+      "uid" : "77937ce859a46e01",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1577120737531,
-        "stop" : 1577120743052,
-        "duration" : 5521
+        "start" : 1577121484429,
+        "stop" : 1577121491608,
+        "duration" : 7179
       },
       "flaky" : false,
       "newFailed" : false,
@@ -34,26 +47,26 @@
     "name" : "0-0",
     "children" : [ {
       "name" : "can add item",
-      "uid" : "3056b5b35f9f80ce",
+      "uid" : "f576c95a4ab7fab",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1577120726519,
-        "stop" : 1577120736091,
-        "duration" : 9572
+        "start" : 1577121483782,
+        "stop" : 1577121486853,
+        "duration" : 3071
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can add correct item",
-      "uid" : "fb38a4eec2f26a1a",
+      "uid" : "81032b186299f2d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1577120736092,
-        "stop" : 1577120738445,
-        "duration" : 2353
+        "start" : 1577121486853,
+        "stop" : 1577121489560,
+        "duration" : 2707
       },
       "flaky" : false,
       "newFailed" : false,
@@ -62,12 +75,12 @@
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
     "name" : "test @SMOKE",
-    "uid" : "2d0cc7a06acf07b1",
+    "uid" : "3c3bef257c0acdf0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1577120754961,
-      "stop" : 1577120754961,
+      "start" : 1577121504298,
+      "stop" : 1577121504298,
       "duration" : 0
     },
     "flaky" : false,
@@ -77,32 +90,19 @@
     "name" : "0-3",
     "children" : [ {
       "name" : "should be alive",
-      "uid" : "b64568e26d0f6b6c",
+      "uid" : "54219812155cca62",
       "parentUid" : "b755a79e149728f67460aea38b0710e0",
       "status" : "passed",
       "time" : {
-        "start" : 1577120748395,
-        "stop" : 1577120754961,
-        "duration" : 6566
+        "start" : 1577121501060,
+        "stop" : 1577121504298,
+        "duration" : 3238
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
-    "name" : "can register",
-    "uid" : "77e1044d03eeb688",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1577120744509,
-      "stop" : 1577120744509,
-      "duration" : 0
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
   } ],
   "name" : "timeline"
 }
