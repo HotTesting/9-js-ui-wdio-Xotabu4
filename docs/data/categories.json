@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+      "children" : [ {
+        "name" : "can add item",
+        "uid" : "5eb15b5914f5d9c3",
+        "parentUid" : "cfabe7d0006346a89db2db52db72a3db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577117403413,
+          "stop" : 1577117467965,
+          "duration" : 64552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "can add correct item",
+        "uid" : "b2ea62269f42ee8b",
+        "parentUid" : "cfabe7d0006346a89db2db52db72a3db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1577117467965,
+          "stop" : 1577117527971,
+          "duration" : 60006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "cfabe7d0006346a89db2db52db72a3db"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

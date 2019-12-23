@@ -1,0 +1,92 @@
+{
+  "uid" : "b2ea62269f42ee8b",
+  "name" : "can add correct item",
+  "fullName" : "User.can add correct item",
+  "historyId" : "5fdcf11e03e1af02b17474c61e3401cf",
+  "time" : {
+    "start" : 1577117467965,
+    "stop" : 1577117527971,
+    "duration" : 60006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)\n                    at Hook.Runnable._timeoutError (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+    "statusTrace" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)\n                    at Hook.Runnable._timeoutError (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1577117467965,
+        "stop" : 1577117527971,
+        "duration" : 60006
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)\n                    at Hook.Runnable._timeoutError (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "User"
+  }, {
+    "name" : "testClass",
+    "value" : "User"
+  }, {
+    "name" : "testMethod",
+    "value" : "can add correct item"
+  }, {
+    "name" : "package",
+    "value" : "User"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2ea62269f42ee8b.json",
+  "parameterValues" : [ "chrome" ]
+}

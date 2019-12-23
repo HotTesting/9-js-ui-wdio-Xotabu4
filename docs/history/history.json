@@ -1,0 +1,139 @@
+{
+  "ed64e1f07b5e116694b15d0c6c9ba062" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "619982cadec46ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117406315,
+        "stop" : 1577117409141,
+        "duration" : 2826
+      }
+    } ]
+  },
+  "facd29e71cf60b0eb5d3b56295d6210c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "452c954b52dda44b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117402800,
+        "stop" : 1577117406314,
+        "duration" : 3514
+      }
+    } ]
+  },
+  "c2136936d7e671b06d2e19f045e9b72d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14c16300723cb29d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577117417129,
+        "stop" : 1577117418802,
+        "duration" : 1673
+      }
+    } ]
+  },
+  "b7660e27dbe934364b84595834b5cf0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5eb15b5914f5d9c3",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+      "time" : {
+        "start" : 1577117403413,
+        "stop" : 1577117467965,
+        "duration" : 64552
+      }
+    } ]
+  },
+  "a448d09bd23fec646792559d39ef4854" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb5004c3f818a7f0",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1577117413028,
+        "stop" : 1577117413028,
+        "duration" : 0
+      }
+    } ]
+  },
+  "73b60919fcf8fff75784626cbc96b24e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce6b56bd9bc48d18",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1577117418803,
+        "stop" : 1577117418803,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5fdcf11e03e1af02b17474c61e3401cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2ea62269f42ee8b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/home/runner/work/9-js-ui-wdio-Xotabu4/9-js-ui-wdio-Xotabu4/test/specs/checkout-user.ts)",
+      "time" : {
+        "start" : 1577117467965,
+        "stop" : 1577117527971,
+        "duration" : 60006
+      }
+    } ]
+  }
+}
