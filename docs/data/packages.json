@@ -1,0 +1,108 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Guest",
+    "children" : [ {
+      "name" : "can add item",
+      "uid" : "d1db7bb2463862a3",
+      "parentUid" : "240b08e85384a1c546b0d12b840c6e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577118690862,
+        "stop" : 1577118694927,
+        "duration" : 4065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "can add correct item",
+      "uid" : "9b9a173e2f9ec317",
+      "parentUid" : "240b08e85384a1c546b0d12b840c6e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577118694928,
+        "stop" : 1577118697682,
+        "duration" : 2754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "240b08e85384a1c546b0d12b840c6e16"
+  }, {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can add item",
+      "uid" : "c9d49c72c5f34252",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577118691188,
+        "stop" : 1577118696797,
+        "duration" : 5609
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "can add correct item",
+      "uid" : "ffb4684e9bde8e6c",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577118696798,
+        "stop" : 1577118702721,
+        "duration" : 5923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "can register",
+      "uid" : "4269c4373eb54074",
+      "parentUid" : "fde823024e17e73c87423a9a943c31c2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1577118702210,
+        "stop" : 1577118702210,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fde823024e17e73c87423a9a943c31c2"
+  }, {
+    "name" : "Website",
+    "children" : [ {
+      "name" : "should be alive",
+      "uid" : "87a4ed21a10b3361",
+      "parentUid" : "6cee8c69dfb111cf3c10d0564ff97ea4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577118706155,
+        "stop" : 1577118708746,
+        "duration" : 2591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "test @SMOKE",
+      "uid" : "9d143f67f03be4e6",
+      "parentUid" : "6cee8c69dfb111cf3c10d0564ff97ea4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1577118708747,
+        "stop" : 1577118708747,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6cee8c69dfb111cf3c10d0564ff97ea4"
+  } ],
+  "name" : "packages"
+}

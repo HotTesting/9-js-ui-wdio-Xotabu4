@@ -1,0 +1,71 @@
+[ {
+  "uid" : "ffb4684e9bde8e6c",
+  "name" : "can add correct item",
+  "time" : {
+    "start" : 1577118696798,
+    "stop" : 1577118702721,
+    "duration" : 5923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87a4ed21a10b3361",
+  "name" : "should be alive",
+  "time" : {
+    "start" : 1577118706155,
+    "stop" : 1577118708746,
+    "duration" : 2591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d143f67f03be4e6",
+  "name" : "test @SMOKE",
+  "time" : {
+    "start" : 1577118708747,
+    "stop" : 1577118708747,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d1db7bb2463862a3",
+  "name" : "can add item",
+  "time" : {
+    "start" : 1577118690862,
+    "stop" : 1577118694927,
+    "duration" : 4065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d49c72c5f34252",
+  "name" : "can add item",
+  "time" : {
+    "start" : 1577118691188,
+    "stop" : 1577118696797,
+    "duration" : 5609
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4269c4373eb54074",
+  "name" : "can register",
+  "time" : {
+    "start" : 1577118702210,
+    "stop" : 1577118702210,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9b9a173e2f9ec317",
+  "name" : "can add correct item",
+  "time" : {
+    "start" : 1577118694928,
+    "stop" : 1577118697682,
+    "duration" : 2754
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
