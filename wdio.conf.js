@@ -1,10 +1,6 @@
 require("ts-node").register({ files: true });
 
 const wdioConfig = {
-    //hostname: 'ip-5236.sunline.net.ua',
-    //port: 4444,
-    path: "/wd/hub",
-    // path: '/',
     runner: "local",
     specs: ["./test/specs/**/*.ts"],
     capabilities: [
@@ -27,7 +23,7 @@ const wdioConfig = {
     //     }
     // },
     baseUrl: process.env.SUT_URL || "http://ip-5236.sunline.net.ua:38015",
-    // services: ["chromedriver"],
+    services: [],
     framework: "mocha",
     reporters: [
         "spec",
@@ -57,6 +53,14 @@ const wdioConfig = {
         }
     }
 };
+
+if (process.env.SELENIUM_HUB_HOST) {
+    wdio.config.hostname = process.env.SELENIUM_HUB_HOST
+    wdio.config.port = 4444
+    wdio.config.path = "/wd/hub"
+} else {
+    wdio.config.services.push("chromedriver");
+}
 
 if (process.env.DEBUG == "1") {
     console.log("###### Running in debug mode! ######");
