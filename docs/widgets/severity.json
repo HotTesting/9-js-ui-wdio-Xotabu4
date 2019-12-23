@@ -1,71 +1,71 @@
 [ {
-  "uid" : "bffd375f84cdc178",
+  "uid" : "4463c909a5b4b9d6",
   "name" : "can add correct item",
   "time" : {
-    "start" : 1577119483302,
-    "stop" : 1577119488541,
-    "duration" : 5239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d8026903ffc79db",
-  "name" : "can register",
-  "time" : {
-    "start" : 1577119485742,
-    "stop" : 1577119485742,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "14f6ce8a987f9308",
-  "name" : "can add correct item",
-  "time" : {
-    "start" : 1577119473551,
-    "stop" : 1577119479504,
-    "duration" : 5953
+    "start" : 1577120347018,
+    "stop" : 1577120367208,
+    "duration" : 20190
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "19cb39ef5a10a1ee",
-  "name" : "can add item",
+  "uid" : "6442c6942cb6bc73",
+  "name" : "should be alive",
   "time" : {
-    "start" : 1577119470444,
-    "stop" : 1577119473550,
-    "duration" : 3106
+    "start" : 1577120368715,
+    "stop" : 1577120371162,
+    "duration" : 2447
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "50bcd68120a6a57f",
+  "uid" : "f783fcffb22ae5da",
+  "name" : "can add item",
+  "time" : {
+    "start" : 1577120341934,
+    "stop" : 1577120347018,
+    "duration" : 5084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "183b253b939f6741",
   "name" : "test @SMOKE",
   "time" : {
-    "start" : 1577119493525,
-    "stop" : 1577119493525,
+    "start" : 1577120371162,
+    "stop" : 1577120371162,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "bd03ea938b639ef",
-  "name" : "can add item",
+  "uid" : "c47942510ebfec77",
+  "name" : "can add correct item",
   "time" : {
-    "start" : 1577119471232,
-    "stop" : 1577119483301,
-    "duration" : 12069
+    "start" : 1577120352631,
+    "stop" : 1577120358280,
+    "duration" : 5649
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4214574e8e8121f3",
-  "name" : "should be alive",
+  "uid" : "594a5d46659c1db6",
+  "name" : "can add item",
   "time" : {
-    "start" : 1577119491542,
-    "stop" : 1577119493524,
-    "duration" : 1982
+    "start" : 1577120342775,
+    "stop" : 1577120352631,
+    "duration" : 9856
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6165e24e5d319ba",
+  "name" : "can register",
+  "time" : {
+    "start" : 1577120363447,
+    "stop" : 1577120363448,
+    "duration" : 1
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]
