@@ -2,8 +2,10 @@ name: WDIO Tests
 
 on: 
   push:
-    branches-ignore:
-    - 'allure-report' # Push events to branches matching allure-report
+    branches:
+    - '!allure-report' # Push events to branches matching allure-report
+    paths-ignore:
+    - 'docs/**'
 
 jobs:
   tests:
@@ -32,3 +34,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BRANCH: allure-report # The branch the action should deploy to.
         FOLDER: allure-report # The folder the action should deploy.
+        TARGET_FOLDER: docs
