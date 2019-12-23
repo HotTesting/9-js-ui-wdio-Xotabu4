@@ -35,6 +35,7 @@ const wdioConfig = {
             "allure",
             {
                 outputDir: "allure-results",
+                disableMochaHooks: true,
                 disableWebdriverStepsReporting: true,
                 disableWebdriverScreenshotsReporting: true
             }
