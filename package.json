@@ -5,7 +5,7 @@
   "description": "Demo project for StartIT students",
   "scripts": {
     "test": "wdio run wdio.conf.js",
-    "report": "allure generate -o docs",
+    "report": "allure generate -o docs --clean",
     "repl": "wdio repl chrome"
   },
   "repository": {
