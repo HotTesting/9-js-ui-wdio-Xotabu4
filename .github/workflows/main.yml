@@ -1,6 +1,9 @@
 name: WDIO Tests
 
-on: [push]
+on: 
+  push:
+    branches-ignore:
+    - 'allure-report' # Push events to branches matching allure-report
 
 jobs:
   tests:
