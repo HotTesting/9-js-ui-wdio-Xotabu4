@@ -7,4 +7,13 @@
     "unknown" : 0,
     "total" : 7
   }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 2,
+    "passed" : 4,
+    "unknown" : 0,
+    "total" : 7
+  }
 } ]

@@ -5,14 +5,14 @@
     "children" : [ {
       "name" : "Expected items in cart to be changed. \n                        Current items: 0 items before 0",
       "children" : [ {
-        "name" : "can add correct item",
-        "uid" : "4463c909a5b4b9d6",
+        "name" : "can add item",
+        "uid" : "3056b5b35f9f80ce",
         "parentUid" : "2d89ee171aa33c3aa8ea7c4a8ab0d2aa",
         "status" : "broken",
         "time" : {
-          "start" : 1577120347018,
-          "stop" : 1577120367208,
-          "duration" : 20190
+          "start" : 1577120726519,
+          "stop" : 1577120736091,
+          "duration" : 9572
         },
         "flaky" : false,
         "newFailed" : false,
