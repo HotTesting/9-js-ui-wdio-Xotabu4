@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 23 18:41:19 UTC 2019","Mon Dec 23 18:41:25 UTC 2019","5719","","User","","User","can add correct item","can add correct item",""
+"passed","Mon Dec 23 18:41:10 UTC 2019","Mon Dec 23 18:41:19 UTC 2019","9041","","User","","User","can add item","can add item",""
+"passed","Mon Dec 23 18:41:10 UTC 2019","Mon Dec 23 18:41:13 UTC 2019","3040","","Guest","","Guest","can add item","can add item",""
+"passed","Mon Dec 23 18:41:13 UTC 2019","Mon Dec 23 18:41:16 UTC 2019","2648","","Guest","","Guest","can add correct item","can add correct item",""
+"skipped","Mon Dec 23 18:41:22 UTC 2019","Mon Dec 23 18:41:22 UTC 2019","0","","User","","User","can register","can register",""
+"passed","Mon Dec 23 18:41:28 UTC 2019","Mon Dec 23 18:41:30 UTC 2019","1575","","Website","","Website","should be alive","should be alive",""
+"skipped","Mon Dec 23 18:41:30 UTC 2019","Mon Dec 23 18:41:30 UTC 2019","0","","Website","","Website","test @SMOKE","test @SMOKE",""
