@@ -15,12 +15,10 @@ jobs:
     - name: Start Selenoid Server
       uses: Xotabu4/selenoid-github-action@v1
     - uses: actions/checkout@v1
-    - name: Install Dependencies
+    - name: Run test
       env:
         SELENIUM_HUB_HOST: 'localhost'
-      run: npm ci  
-    - name: Tests
-      run: npm test
+      run: npm cit  
     - name: Create Report
       if: always()
       # trying to save history of previous runs if it is exists

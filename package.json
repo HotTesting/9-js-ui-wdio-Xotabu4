@@ -15,9 +15,7 @@
   "author": "Oleksandr Khotemskyi <xotabu4@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@wdio/cli": "^5.16.7"
-  },
-  "devDependencies": {
+    "@wdio/cli": "^5.16.7",
     "@types/mocha": "^5.2.7",
     "@types/node": "^10.0.0",
     "@types/chai": "4.2.0",
