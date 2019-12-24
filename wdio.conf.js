@@ -33,7 +33,7 @@ const wdioConfig = {
                 outputDir: "allure-results",
                 disableMochaHooks: true,
                 disableWebdriverStepsReporting: true,
-                disableWebdriverScreenshotsReporting: true
+                disableWebdriverScreenshotsReporting: false
             }
         ]
     ],
@@ -59,7 +59,7 @@ if (process.env.SELENIUM_HUB_HOST) {
     wdioConfig.port = 4444
     wdioConfig.path = "/wd/hub"
 } else {
-    wdioConfig.services.push("chromedriver");
+    wdioConfig.services = ["chromedriver"];
 }
 
 if (process.env.DEBUG == "1") {
