@@ -3,27 +3,27 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "can add item",
-      "uid" : "3f6883d0a7603039",
+      "name" : "can add correct item",
+      "uid" : "767af7850e1b7cca",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1577211013274,
-        "stop" : 1577211020471,
-        "duration" : 7197
+        "start" : 1577214226019,
+        "stop" : 1577214240226,
+        "duration" : 14207
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "can add correct item",
-      "uid" : "272e7c7c1a53e92d",
+      "name" : "can add item",
+      "uid" : "c61ed38830428102",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1577211020471,
-        "stop" : 1577211023675,
-        "duration" : 3204
+        "start" : 1577214216134,
+        "stop" : 1577214226019,
+        "duration" : 9885
       },
       "flaky" : false,
       "newFailed" : false,
@@ -31,46 +31,29 @@
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
   }, {
-    "name" : "0-3",
-    "children" : [ {
-      "name" : "should be alive",
-      "uid" : "5401e17598ad28d7",
-      "parentUid" : "b755a79e149728f67460aea38b0710e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1577211034032,
-        "stop" : 1577211035704,
-        "duration" : 1672
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "b755a79e149728f67460aea38b0710e0"
-  }, {
     "name" : "0-1",
     "children" : [ {
       "name" : "can add correct item",
-      "uid" : "2360f8c9d3e60cc1",
+      "uid" : "669fd917a9996e",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "broken",
       "time" : {
-        "start" : 1577211024044,
-        "stop" : 1577211037618,
-        "duration" : 13574
+        "start" : 1577214226607,
+        "stop" : 1577214240179,
+        "duration" : 13572
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can add item",
-      "uid" : "7c59eb70620ea704",
+      "uid" : "d0ae99b189403fb9",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1577211013823,
-        "stop" : 1577211024044,
-        "duration" : 10221
+        "start" : 1577214216945,
+        "stop" : 1577214226606,
+        "duration" : 9661
       },
       "flaky" : false,
       "newFailed" : false,
@@ -79,26 +62,43 @@
     "uid" : "27fa874cadc1574e37a07abb440963bd"
   }, {
     "name" : "can register",
-    "uid" : "6cf5e02cfebf85d9",
+    "uid" : "731ace4e74781c38",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1577211028969,
-      "stop" : 1577211028970,
-      "duration" : 1
+      "start" : 1577214248476,
+      "stop" : 1577214248476,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "should be alive",
+      "uid" : "418e2772223c9ed7",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577214248725,
+        "stop" : 1577214250591,
+        "duration" : 1866
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
     "name" : "test @SMOKE",
-    "uid" : "da8f9eadbb4ddc87",
+    "uid" : "f54a6118ee951087",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1577211035704,
-      "stop" : 1577211035705,
-      "duration" : 1
+      "start" : 1577214250591,
+      "stop" : 1577214250591,
+      "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
