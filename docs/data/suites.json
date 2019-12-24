@@ -1,72 +1,29 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "User",
-    "children" : [ {
-      "name" : "can add item",
-      "uid" : "177bfe38282d7e60",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1577126470867,
-        "stop" : 1577126479908,
-        "duration" : 9041
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "can add correct item",
-      "uid" : "1027f0cab3ab2724",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1577126479908,
-        "stop" : 1577126485627,
-        "duration" : 5719
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "can register",
-      "uid" : "124c57dd57e7ef04",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1577126482816,
-        "stop" : 1577126482816,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
-  }, {
     "name" : "Guest",
     "children" : [ {
       "name" : "can add item",
-      "uid" : "7934773de659ff54",
+      "uid" : "3f6883d0a7603039",
       "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
       "status" : "passed",
       "time" : {
-        "start" : 1577126470890,
-        "stop" : 1577126473930,
-        "duration" : 3040
+        "start" : 1577211013274,
+        "stop" : 1577211020471,
+        "duration" : 7197
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "can add correct item",
-      "uid" : "74bd7779d5400697",
+      "uid" : "272e7c7c1a53e92d",
       "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
       "status" : "passed",
       "time" : {
-        "start" : 1577126473931,
-        "stop" : 1577126476579,
-        "duration" : 2648
+        "start" : 1577211020471,
+        "stop" : 1577211023675,
+        "duration" : 3204
       },
       "flaky" : false,
       "newFailed" : false,
@@ -74,29 +31,72 @@
     } ],
     "uid" : "9a2be34a1af7b5d97360f29faef7da6b"
   }, {
+    "name" : "User",
+    "children" : [ {
+      "name" : "can add item",
+      "uid" : "7c59eb70620ea704",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1577211013823,
+        "stop" : 1577211024044,
+        "duration" : 10221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "can add correct item",
+      "uid" : "2360f8c9d3e60cc1",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1577211024044,
+        "stop" : 1577211037618,
+        "duration" : 13574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "can register",
+      "uid" : "6cf5e02cfebf85d9",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1577211028969,
+        "stop" : 1577211028970,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
+  }, {
     "name" : "Website",
     "children" : [ {
       "name" : "should be alive",
-      "uid" : "59cd046669a14f4b",
+      "uid" : "5401e17598ad28d7",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
       "status" : "passed",
       "time" : {
-        "start" : 1577126488821,
-        "stop" : 1577126490396,
-        "duration" : 1575
+        "start" : 1577211034032,
+        "stop" : 1577211035704,
+        "duration" : 1672
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "test @SMOKE",
-      "uid" : "9b063c72277cec8f",
+      "uid" : "da8f9eadbb4ddc87",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
       "status" : "skipped",
       "time" : {
-        "start" : 1577126490397,
-        "stop" : 1577126490397,
-        "duration" : 0
+        "start" : 1577211035704,
+        "stop" : 1577211035705,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
