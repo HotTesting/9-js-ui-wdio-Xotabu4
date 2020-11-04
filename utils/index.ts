@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 export function createNewUserAndLogin() {
     console.time('Create and login user took');
     const credentials = createNewUser()
-    const result =  quickLogin(credentials)
+    const result = quickLogin(credentials)
     console.timeEnd('Create and login user took');
     return result
 }
@@ -55,13 +55,13 @@ async function createNewUserAsync() {
         confirmed_password: password,
         create_account: "Create Account"
     };
-    try {
-        await req.post("http://ip-5236.sunline.net.ua:38015/create_account", {
-            form: formData
-        })
-    } catch (err) {
-        // console.log(err)
-    }
+    // try {
+    await req.post("http://ip-5236.sunline.net.ua:38015/create_account", {
+        form: formData
+    })
+    // } catch (err) {
+    //     // console.log(err)
+    // }
 
     return { email: email, password: password };
 }

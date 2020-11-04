@@ -2,7 +2,8 @@ require("ts-node").register({ files: true });
 
 const wdioConfig = {
     runner: "local",
-    specs: ["./test/specs/**/*.ts"],
+    // specs: ["./test/specs/**/*.ts"],
+    specs: ["./test/demo/assertions.ts"],
     capabilities: [
         {
             maxInstances: 2,

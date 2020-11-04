@@ -28,8 +28,10 @@ export class ProductDetailsPage extends BasePage {
         $('button[name="add_cart_product"]').click()
         browser.waitUntil(() => {
             return this.header.getQuantity() > currentItemsInCart
-        }, null, `Expected items in cart to be changed. 
-        Current items: ${this.header.getQuantity()} items before ${currentItemsInCart}`)
+        }, {
+            timeoutMsg: `Expected items in cart to be changed. 
+        Current items: ${this.header.getQuantity()} items before ${currentItemsInCart}`
+        })
     }
 }
 

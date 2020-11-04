@@ -10,7 +10,7 @@ describe('User', function () {
         countrySelect.selectByVisibleText('Ukraine')
 
         const email = `test${new Date().getTime() / 1000}@test.com`
-        
+
         registrationForm.$('input[name="email"]').setValue(email)
         registrationForm.$('input[name="phone"]').setValue('+380441111111')
 
@@ -37,8 +37,10 @@ describe('User', function () {
             } catch (err) {
                 return false
             }
-        }, null, `Alert text: "${lastResult}" to match expected: "${expectedText}", after succesful registration`)
-        
+        }, {
+            timeoutMsg: `Alert text: "${lastResult}" to match expected: "${expectedText}", after succesful registration`
+        })
+
         // const alertText = alert.getText()
         // const expectedText = 'Your customer account has been created.'
         // assert(alertText.includes(expectedText), 
