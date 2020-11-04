@@ -1,108 +1,95 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Guest",
-    "children" : [ {
-      "name" : "can add item",
-      "uid" : "c61ed38830428102",
-      "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1577214216134,
-        "stop" : 1577214226019,
-        "duration" : 9885
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "can add correct item",
-      "uid" : "767af7850e1b7cca",
-      "parentUid" : "9a2be34a1af7b5d97360f29faef7da6b",
-      "status" : "broken",
-      "time" : {
-        "start" : 1577214226019,
-        "stop" : 1577214240226,
-        "duration" : 14207
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    } ],
-    "uid" : "9a2be34a1af7b5d97360f29faef7da6b"
-  }, {
-    "name" : "User",
-    "children" : [ {
-      "name" : "can add item",
-      "uid" : "d0ae99b189403fb9",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1577214216945,
-        "stop" : 1577214226606,
-        "duration" : 9661
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "can add correct item",
-      "uid" : "669fd917a9996e",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "broken",
-      "time" : {
-        "start" : 1577214226607,
-        "stop" : 1577214240179,
-        "duration" : 13572
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
-      "name" : "can register",
-      "uid" : "731ace4e74781c38",
-      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1577214248476,
-        "stop" : 1577214248476,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
-  }, {
     "name" : "Website",
     "children" : [ {
       "name" : "should be alive",
-      "uid" : "418e2772223c9ed7",
+      "uid" : "a2525e20d880f859",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
       "status" : "passed",
       "time" : {
-        "start" : 1577214248725,
-        "stop" : 1577214250591,
-        "duration" : 1866
+        "start" : 1604505702729,
+        "stop" : 1604505704130,
+        "duration" : 1401
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome" ]
+      "parameters" : [ "chrome-86.0.4240.75" ]
     }, {
-      "name" : "test @SMOKE",
-      "uid" : "f54a6118ee951087",
+      "name" : "checking assertions",
+      "uid" : "f7640a7f242af7ca",
       "parentUid" : "905cd5dc6ca5d8619c183d5ed9634927",
-      "status" : "skipped",
+      "status" : "passed",
       "time" : {
-        "start" : 1577214250591,
-        "stop" : 1577214250591,
-        "duration" : 0
+        "start" : 1604505704131,
+        "stop" : 1604505704140,
+        "duration" : 9
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "chrome-86.0.4240.75" ]
     } ],
     "uid" : "905cd5dc6ca5d8619c183d5ed9634927"
+  }, {
+    "name" : "Chai",
+    "children" : [ {
+      "name" : "should",
+      "uid" : "498324162b65d6a1",
+      "parentUid" : "78b6021e64b5af683a6072eaa16902ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604505704147,
+        "stop" : 1604505704539,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    }, {
+      "name" : "expect",
+      "uid" : "fe84cd87402f2fa3",
+      "parentUid" : "78b6021e64b5af683a6072eaa16902ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604505704539,
+        "stop" : 1604505704850,
+        "duration" : 311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    }, {
+      "name" : "assert",
+      "uid" : "6ec8354dd6c0e9a2",
+      "parentUid" : "78b6021e64b5af683a6072eaa16902ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604505704851,
+        "stop" : 1604505705174,
+        "duration" : 323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    } ],
+    "uid" : "78b6021e64b5af683a6072eaa16902ff"
+  }, {
+    "name" : "WDIO expect",
+    "children" : [ {
+      "name" : "expect",
+      "uid" : "3ca1ffd35004d61e",
+      "parentUid" : "b7e03c1480786caa6421462949b6cc0d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1604505705176,
+        "stop" : 1604505710503,
+        "duration" : 5327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    } ],
+    "uid" : "b7e03c1480786caa6421462949b6cc0d"
   } ],
   "name" : "suites"
 }

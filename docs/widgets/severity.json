@@ -1,71 +1,61 @@
 [ {
-  "uid" : "f54a6118ee951087",
-  "name" : "test @SMOKE",
+  "uid" : "f7640a7f242af7ca",
+  "name" : "checking assertions",
   "time" : {
-    "start" : 1577214250591,
-    "stop" : 1577214250591,
-    "duration" : 0
+    "start" : 1604505704131,
+    "stop" : 1604505704140,
+    "duration" : 9
   },
-  "status" : "skipped",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "418e2772223c9ed7",
+  "uid" : "fe84cd87402f2fa3",
+  "name" : "expect",
+  "time" : {
+    "start" : 1604505704539,
+    "stop" : 1604505704850,
+    "duration" : 311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "498324162b65d6a1",
+  "name" : "should",
+  "time" : {
+    "start" : 1604505704147,
+    "stop" : 1604505704539,
+    "duration" : 392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ca1ffd35004d61e",
+  "name" : "expect",
+  "time" : {
+    "start" : 1604505705176,
+    "stop" : 1604505710503,
+    "duration" : 5327
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2525e20d880f859",
   "name" : "should be alive",
   "time" : {
-    "start" : 1577214248725,
-    "stop" : 1577214250591,
-    "duration" : 1866
+    "start" : 1604505702729,
+    "stop" : 1604505704130,
+    "duration" : 1401
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "767af7850e1b7cca",
-  "name" : "can add correct item",
+  "uid" : "6ec8354dd6c0e9a2",
+  "name" : "assert",
   "time" : {
-    "start" : 1577214226019,
-    "stop" : 1577214240226,
-    "duration" : 14207
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d0ae99b189403fb9",
-  "name" : "can add item",
-  "time" : {
-    "start" : 1577214216945,
-    "stop" : 1577214226606,
-    "duration" : 9661
+    "start" : 1604505704851,
+    "stop" : 1604505705174,
+    "duration" : 323
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c61ed38830428102",
-  "name" : "can add item",
-  "time" : {
-    "start" : 1577214216134,
-    "stop" : 1577214226019,
-    "duration" : 9885
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "669fd917a9996e",
-  "name" : "can add correct item",
-  "time" : {
-    "start" : 1577214226607,
-    "stop" : 1577214240179,
-    "duration" : 13572
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "731ace4e74781c38",
-  "name" : "can register",
-  "time" : {
-    "start" : 1577214248476,
-    "stop" : 1577214248476,
-    "duration" : 0
-  },
-  "status" : "skipped",
   "severity" : "normal"
 } ]

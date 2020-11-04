@@ -1,39 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "Expected items in cart to be changed. \n                        Current items: 0 items before 0",
+      "name" : "Expect $(`div`) not to be displayed\n                \n                Expected [not]: \"not displayed\"\n                Received      : \"displayed\"",
       "children" : [ {
-        "name" : "can add correct item",
-        "uid" : "767af7850e1b7cca",
-        "parentUid" : "2d89ee171aa33c3aa8ea7c4a8ab0d2aa",
-        "status" : "broken",
+        "name" : "expect",
+        "uid" : "3ca1ffd35004d61e",
+        "parentUid" : "033d2efd77d93a31391dbb2c37d1976e",
+        "status" : "failed",
         "time" : {
-          "start" : 1577214226019,
-          "stop" : 1577214240226,
-          "duration" : 14207
+          "start" : 1604505705176,
+          "stop" : 1604505710503,
+          "duration" : 5327
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "chrome" ]
-      }, {
-        "name" : "can add correct item",
-        "uid" : "669fd917a9996e",
-        "parentUid" : "2d89ee171aa33c3aa8ea7c4a8ab0d2aa",
-        "status" : "broken",
-        "time" : {
-          "start" : 1577214226607,
-          "stop" : 1577214240179,
-          "duration" : 13572
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome" ]
+        "parameters" : [ "chrome-86.0.4240.75" ]
       } ],
-      "uid" : "2d89ee171aa33c3aa8ea7c4a8ab0d2aa"
+      "uid" : "033d2efd77d93a31391dbb2c37d1976e"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }
