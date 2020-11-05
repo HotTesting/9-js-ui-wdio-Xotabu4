@@ -1,4 +1,23 @@
 {
+  "348b44fa584e710fd61a0fafd27dbe00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e17cb5a0496265e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604607481814,
+        "stop" : 1604607496423,
+        "duration" : 14609
+      }
+    } ]
+  },
   "ed64e1f07b5e116694b15d0c6c9ba062" : {
     "statistic" : {
       "failed" : 0,
@@ -70,23 +89,22 @@
       }
     } ]
   },
-  "8cce80540dd5678c52fa3d255d2b05a0" : {
+  "45d237855064b420705144f656f27d3f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1d06b7fff1585683",
-      "status" : "failed",
-      "statusDetails" : "Expect $(`div`) not to be displayed\n                \n                Expected [not]: \"not displayed\"\n                Received      : \"displayed\"",
+      "uid" : "c2afcbf05a3b3cab",
+      "status" : "passed",
       "time" : {
-        "start" : 1604558829243,
-        "stop" : 1604558835603,
-        "duration" : 6360
+        "start" : 1604607465812,
+        "stop" : 1604607481814,
+        "duration" : 16002
       }
     } ]
   },

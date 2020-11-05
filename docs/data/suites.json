@@ -1,22 +1,35 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "WDIO expect",
+    "name" : "User",
     "children" : [ {
-      "name" : "expect",
-      "uid" : "1d06b7fff1585683",
-      "parentUid" : "b7e03c1480786caa6421462949b6cc0d",
-      "status" : "failed",
+      "name" : "can add item",
+      "uid" : "c2afcbf05a3b3cab",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
       "time" : {
-        "start" : 1604558829243,
-        "stop" : 1604558835603,
-        "duration" : 6360
+        "start" : 1604607465812,
+        "stop" : 1604607481814,
+        "duration" : 16002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    }, {
+      "name" : "can add correct item",
+      "uid" : "e17cb5a0496265e6",
+      "parentUid" : "158d31ef2d958db1dcda80c268f86ba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604607481814,
+        "stop" : 1604607496423,
+        "duration" : 14609
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-86.0.4240.75" ]
     } ],
-    "uid" : "b7e03c1480786caa6421462949b6cc0d"
+    "uid" : "158d31ef2d958db1dcda80c268f86ba1"
   } ],
   "name" : "suites"
 }

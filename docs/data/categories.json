@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Expect $(`div`) not to be displayed\n                \n                Expected [not]: \"not displayed\"\n                Received      : \"displayed\"",
-      "children" : [ {
-        "name" : "expect",
-        "uid" : "1d06b7fff1585683",
-        "parentUid" : "033d2efd77d93a31391dbb2c37d1976e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1604558829243,
-          "stop" : 1604558835603,
-          "duration" : 6360
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "chrome-86.0.4240.75" ]
-      } ],
-      "uid" : "033d2efd77d93a31391dbb2c37d1976e"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

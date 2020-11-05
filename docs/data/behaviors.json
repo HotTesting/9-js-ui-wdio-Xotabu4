@@ -1,14 +1,27 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "expect",
-    "uid" : "1d06b7fff1585683",
+    "name" : "can add item",
+    "uid" : "c2afcbf05a3b3cab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1604558829243,
-      "stop" : 1604558835603,
-      "duration" : 6360
+      "start" : 1604607465812,
+      "stop" : 1604607481814,
+      "duration" : 16002
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.75" ]
+  }, {
+    "name" : "can add correct item",
+    "uid" : "e17cb5a0496265e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604607481814,
+      "stop" : 1604607496423,
+      "duration" : 14609
     },
     "flaky" : false,
     "newFailed" : false,
