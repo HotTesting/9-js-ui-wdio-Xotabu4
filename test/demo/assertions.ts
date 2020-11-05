@@ -41,7 +41,7 @@ describe("Chai", function() {
     });
 });
 
-describe("WDIO expect", function() {
+describe.only("WDIO expect", function() {
     it("expect", function() {
         browser.url('/');
         // expectChai($("div").isDisplayed(), 'error message').to.be.true
