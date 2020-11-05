@@ -6,13 +6,13 @@
       "name" : "Expect $(`div`) not to be displayed\n                \n                Expected [not]: \"not displayed\"\n                Received      : \"displayed\"",
       "children" : [ {
         "name" : "expect",
-        "uid" : "3ca1ffd35004d61e",
+        "uid" : "1d06b7fff1585683",
         "parentUid" : "033d2efd77d93a31391dbb2c37d1976e",
         "status" : "failed",
         "time" : {
-          "start" : 1604505705176,
-          "stop" : 1604505710503,
-          "duration" : 5327
+          "start" : 1604558829243,
+          "stop" : 1604558835603,
+          "duration" : 6360
         },
         "flaky" : false,
         "newFailed" : false,

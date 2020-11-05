@@ -1,7 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Nov 04 16:01:44 UTC 2020","Wed Nov 04 16:01:45 UTC 2020","323","","Chai","","Chai","assert","assert",""
-"failed","Wed Nov 04 16:01:45 UTC 2020","Wed Nov 04 16:01:50 UTC 2020","5327","","WDIO expect","","WDIO expect","expect","expect",""
-"passed","Wed Nov 04 16:01:42 UTC 2020","Wed Nov 04 16:01:44 UTC 2020","1401","","Website","","Website","should be alive","should be alive",""
-"passed","Wed Nov 04 16:01:44 UTC 2020","Wed Nov 04 16:01:44 UTC 2020","311","","Chai","","Chai","expect","expect",""
-"passed","Wed Nov 04 16:01:44 UTC 2020","Wed Nov 04 16:01:44 UTC 2020","392","","Chai","","Chai","should","should",""
-"passed","Wed Nov 04 16:01:44 UTC 2020","Wed Nov 04 16:01:44 UTC 2020","9","","Website","","Website","checking assertions","checking assertions",""
+"failed","Thu Nov 05 06:47:09 UTC 2020","Thu Nov 05 06:47:15 UTC 2020","6360","","WDIO expect","","WDIO expect","expect","expect",""
