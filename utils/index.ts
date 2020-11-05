@@ -16,7 +16,7 @@ export function createNewUser(): any {
 
 async function createNewUserAsync() {
     const j = request.jar();
-    let req = request.defaults({
+    const req = request.defaults({
         jar: j,
         resolveWithFullResponse: true,
         headers: {
@@ -26,7 +26,7 @@ async function createNewUserAsync() {
             "Content-Type": "application/x-www-form-urlencoded"
         }
     });
-    let tokenResponse = await req.get(
+    const tokenResponse = await req.get(
         "http://ip-5236.sunline.net.ua:38015/create_account"
     );
 
@@ -34,7 +34,7 @@ async function createNewUserAsync() {
     const token = $('form[name="customer_form"] input[name="token"]').attr(
         "value"
     );
-    let uuid = faker.random.uuid().replace(/-/gm, "");
+    const uuid = faker.random.uuid().replace(/-/gm, "");
     const email = `${uuid}@test.com`;
     const password = "123456";
 
@@ -55,22 +55,17 @@ async function createNewUserAsync() {
         confirmed_password: password,
         create_account: "Create Account"
     };
-    // try {
     await req.post("http://ip-5236.sunline.net.ua:38015/create_account", {
         form: formData
-    })
-    // } catch (err) {
-    //     // console.log(err)
-    // }
+    }).catch(err => { })
 
     return { email: email, password: password };
 }
 
 export function quickLogin(credentials: { email: string, password: string }): { credentials: { email: string, password: string }, cookieWithSessionID: any } {
     console.log("Doing login for user: ", credentials);
-    const cookieWithSessionID = browser.call(async function () {
-        let res = await quickLoginAsync(credentials)
-        return res
+    const cookieWithSessionID = browser.call(function () {
+        return quickLoginAsync(credentials)
     });
     browser.url('/')
     browser.setCookies({
@@ -86,7 +81,7 @@ export function quickLogin(credentials: { email: string, password: string }): { 
 
 async function quickLoginAsync(credentials) {
     const j = request.jar();
-    let tokenResponse = await request.get(
+    const tokenResponse = await request.get(
         "http://ip-5236.sunline.net.ua:38015/login",
         {
             jar: j,
