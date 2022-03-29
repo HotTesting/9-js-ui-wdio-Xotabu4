@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Nov 05 20:17:45 UTC 2020","Thu Nov 05 20:18:01 UTC 2020","16002","","User","","User","can add item","can add item",""
-"passed","Thu Nov 05 20:18:01 UTC 2020","Thu Nov 05 20:18:16 UTC 2020","14609","","User","","User","can add correct item","can add correct item",""
