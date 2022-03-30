@@ -19,10 +19,15 @@
     "homepage": "https://github.com/Jurason/9-js-ui-wdio-Xotabu4#readme",
     "devDependencies": {
         "@wdio/cli": "^7.19.2",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "^17.0.23",
+        "@types/chai": "4.3.0",
         "@wdio/local-runner": "^7.19.2",
         "@wdio/mocha-framework": "^7.19.2",
         "@wdio/spec-reporter": "^7.19.1",
         "chromedriver": "^99.0.0",
-        "wdio-chromedriver-service": "^7.3.2"
+        "wdio-chromedriver-service": "^7.3.2",
+        "typescript": "^4.6.3",
+        "ts-node": "^10.7.0"
     }
 }
